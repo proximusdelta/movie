@@ -1,5 +1,14 @@
 {
-    "name": "proximusdelta/movie",
-    "description": "A brief description of your project",
-    "license": "proprietary"
+  "name": "proximusdelta/movie",
+  "description": "A brief description of the project",
+  "type": "project",
+  "require": {
+    // Your dependencies go here
+  },
+  "autoload": {
+    "psr-4": {
+      "Your\\Namespace\\": "src/"
+    }
+  },
+  "license": "proprietary"
 }
